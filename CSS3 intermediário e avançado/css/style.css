@@ -1,0 +1,102 @@
+/*  */
+
+/* ############################################### 
+
+* {
+	border: 1px solid red;   Seletor Universal usamos (" *{} " ) 
+ }
+
+h1 {
+	color: #fff;   Seletor de texto usamos (" h1 a h6" ) 
+}
+
+
+/* ############################################### 
+				 SELETOR DE CLASSE: 
+				"Seleciona um elemento cujo
+				atributo class tem o valor
+				especificado depois do
+				ponto"
+
+.verde {				     
+	background: green;  Seleciona qualquer elemento cujo
+						atributo class tem o valor “verde” 
+}
+
+p.verde  {	Seleciona somente elemento <p> cujo
+			atributo class tem o valor “verde” 
+color: blue;
+
+}
+
+/* ############################################### 
+
+				 SELETOR DE ID: (identificação): 
+				Seleciona um elemento cujo 
+				atributo id tem o valor 
+				especificado após o símbolo 
+				de cerquilha ou jogo da 
+				velha (" # "); 
+
+#cabecalho {
+
+	border: 12px solid yellow;  #cabecalho{}
+								Seleciona o elemento cujo atributo id 
+								tem o valor “cabecalho”
+								 
+
+}
+
+				
+  ############################################### 
+
+	 SELETOR DE FILHO: Seleciona um elemento que 
+				é filho direto de outro;  
+
+li>a {
+	background-color: orange;   li>a {}
+								Seleciona quaisquer elementos <a> 
+								que são filhos de um elemento <li> 
+								(mas não outros elementos a na 
+								página) 
+} 
+  ############################################### */
+	
+				/* SELETOR FILHO: Seleciona um elemento que 
+					é descendente de outro 
+					elemento especificado (e 
+					não apenas filho direto 
+					desse elemento) */
+/*
+div a {
+	color: violet; 		   p a {}
+						Seleciona quaisquer elementos <a> 
+						que residem dentro de um elemento 
+						<div>, mesmo e houver outros 
+						elementos aninhados entre eles 
+}
+
+  ############################################### */
+
+/*       SELETOR DE IRMÃO ADJACENTE:
+		 Seleciona um elemento que 
+		 é o irmão próximo de outr
+
+h1+p {
+	color: orange;
+}
+
+
+ ############################################### */
+
+/*       SELETOR DE IRMÃO GERAL:
+		 Seleciona um elemento que 
+		 é um irmão de outro, 
+		 embora ele não precise ser o 
+		 elemento diretamente 
+		 precedente.
+
+h1~p {
+	color: yellow;
+}
+############################################### */
